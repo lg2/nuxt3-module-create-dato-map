@@ -1,4 +1,4 @@
-import linkResolverJSON from "./../../../assets/jsons/link-resolver.json";
+const linkResolverJSON = require("./../../../assets/jsons/link-resolver.json");
 import { defineNuxtModule } from "@nuxt/kit";
 
 const fs = require("fs");
