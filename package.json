@@ -1,7 +1,7 @@
 {
   "name": "@lg2/nuxt3-module-create-dato-map",
-  "version": "0.0.12",
-  "description": "consent gtm",
+  "version": "0.0.13",
+  "description": "nuxt3-module-create-dato-map",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
