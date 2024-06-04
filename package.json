@@ -1,6 +1,6 @@
 {
   "name": "@lg2/nuxt3-module-create-dato-map",
-  "version": "0.0.19",
+  "version": "0.0.11",
   "description": "consent gtm",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com:lg2/nuxt3-module-create-dato-map.git"
+    "url": "git+ssh://git@github.com/lg2/nuxt3-module-create-dato-map.git"
   },
   "author": "romain avalle",
   "license": "ISC",
