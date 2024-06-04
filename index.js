@@ -67,6 +67,7 @@ export default defineNuxtModule({
             if (route.name.includes(`___`)) {
               entry.locale = route.name.split(`___`)[1]
             }
+            entry.path = entry.path.replaceAll('()', '')
             array.push(entry)
           }
         })
@@ -75,6 +76,7 @@ export default defineNuxtModule({
       await checkHeadersFile()
       await checkJSONFile(array)
       console.log('dato route map - DONE!')
+      console.table(array)
       return true
       // })
     })
