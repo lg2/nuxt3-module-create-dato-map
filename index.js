@@ -41,11 +41,11 @@ async function checkJSONFile(array) {
 export default defineNuxtModule({
   setup(options, nuxtApp) {
     nuxtApp.hooks.hook('pages:extend', async (pages) => {
-      console.log('pages:extend', pages)
+      // console.log('pages:extend', pages)
 
       const array = []
       pages.forEach((route) => {
-          console.log(route)
+          // console.log(route)
           const entryArray = Object.entries(linkResolverJSON).find(
             (entry) =>
               (entry[1].name === route.name) |
